@@ -11,6 +11,7 @@
     tools:context="kr.hs.emirim.dnj1981.monchicken.ResultActivity">
 
     <TextView
+        android:id="@+id/result"
         android:text="Second World!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
