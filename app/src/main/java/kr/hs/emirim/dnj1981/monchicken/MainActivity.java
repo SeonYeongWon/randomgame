@@ -1,5 +1,6 @@
 package kr.hs.emirim.dnj1981.monchicken;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,5 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Toast.makeText(this,"배고파요!", Toast.LENGTH_LONG).show(); //duration->기간
+        Intent intent=new Intent(this, ResultActivity.class);
+        startActivity(intent);
     }
 }
